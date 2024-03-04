@@ -10,9 +10,7 @@ declare module "h3" {
     cf: CfProperties;
     cloudflare: {
       request: Request;
-      env: {
-        MY_KV_NAMESPACE: KVNamespace;
-      };
+      env: Env;
       context: ExecutionContext;
     };
   }
